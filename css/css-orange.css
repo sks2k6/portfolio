@@ -1,0 +1,22 @@
+@keyframes background-color-flow {
+    0% { background-color: #0074e0; }
+    25% { background-color: #e01b65; }
+    50% { background-color: #ff9900; }
+    75% { background-color: #34c759; }
+    100% { background-color: #0074e0; }
+}
+
+/* Nee entha ivde myre */
+.animated-bar, .clickbtn, .cursor-inner, .cursor-inner.cursor-hover, .homecolor-box, .resume-section .resume-item .item-arrow::before, .service-line::after, .social__tooltip, .social__tooltip::after, .style-switch-wrapper .purchse-btn, .funfacts-box h3, .funfacts-section .funfacts-box h3::after, .bar .progress-line span, .mix .info .post, .switch {
+    animation: background-color-flow 10s linear infinite;
+}
+
+/* Define the text color */
+.text-color {
+    color: #0074e0; /* Set your desired text color here */
+}
+
+/* Apply the text color to the specified elements */
+.about-content .about-you .value a, .about-content .personal-infotitle span, .about-content .personal-title span, .about-content .social-icons li a:hover, .about-subtitle span, .animated-text h3, .blog-content .blog-body .title, .blog-content .blog-body h4, .blog-content .blog-header span i, .blog-content .content-title, .blog-section .single-post .post-content .content-date, .contact-section .contact-info .list-info .info-details .info-value, .contact-section .contact-info .list-info .info-details .info-value a, .contact-section .contact-info .list-info .info-details .info-value a:focus, .contact-section .contact-info .list-info .info-details .info-value a:hover, .contact-section .contact-info .list-info .info-icon i, .fixed-block .social-icons a:hover, .navigation ul li.active a .icon, .owl-dot, .resume-section .resume-item .item-title, .section-title .common-title span, .service-line, .single-post:hover .post-content .content-title h5 > a, .testimonial-item .quote, .testimonial-item .rating, .owl-dot.active span {
+    color: inherit; /* Inherit the text color from the parent */
+}
