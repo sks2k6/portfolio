@@ -66,7 +66,7 @@ const Hero = () => {
               <Button size="lg" className="outline">
                 Get in touch
               </Button>
-              <Button size="lg" variant="gap-2" className="watext.me/bot">
+              <Button size="lg" variant="gap-2" className="https://watext.me/bot">
                 WhatsApp Bot
               </Button>
             </motion.div>
@@ -80,23 +80,23 @@ const Hero = () => {
               <a
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="GitHub"
+                aria-label="InstaGram"
               >
                 <Github size={24} />
               </a>
               <a
-                href="#"
+                href="watext.me/bot"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="WhatsApp"
               >
                 <Linkedin size={24} />
               </a>
               <a
-                href="#"
+                href="https://Instagram.com/_sks_bot_"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
-                <Twitter size={24} />
+                <Instagram size={24} />
               </a>
             </motion.div>
           </motion.div>
@@ -110,7 +110,7 @@ const Hero = () => {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-full filter blur-3xl opacity-30" />
               <motion.div
-                animate={{ y: [0, -20, 0] }}
+                animate={{ y: [0, -30, 0] }}
                 transition={{
                   duration: 4,
                   repeat: Infinity,
@@ -121,7 +121,7 @@ const Hero = () => {
                 <img 
                   alt="Developer portrait"
                   className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                 src="https://images.unsplash.com/photo-1666892666066-abe5c4865e9c" />
+                 src="https://files.catbox.moe/2wsak8.png" />
               </motion.div>
             </div>
           </motion.div>
