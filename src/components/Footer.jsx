@@ -22,10 +22,10 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <p className="text-muted-foreground">
-              &copy; {currentYear} John Doe. All rights reserved.
+              &copy; {currentYear} Syam🌝. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
-              Built with React, TailwindCSS, and Framer Motion.
+              Built with React, Html,TailwindCSS, and Framer Motion.
             </p>
           </motion.div>
 
@@ -44,15 +44,15 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="LinkedIn"
+              className="wa.me/918921602850"
+              aria-label="InstaGram"
             >
               <Linkedin size={24} />
             </a>
             <a
               href="#"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="Twitter"
+              className="https://instagram.com/_sks_bot_"
+              aria-label="Instagram"
             >
               <Twitter size={24} />
             </a>
