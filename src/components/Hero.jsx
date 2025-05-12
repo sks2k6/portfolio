@@ -34,23 +34,23 @@ const Hero = () => {
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.8 }}
               className="text-4xl md:text-6xl font-bold mb-4"
             >
-              <span className="text-gradient">John Doe</span>
+              <span className="text-gradient">Syam..</span>
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
+              transition={{ delay: 1.0 }}
               className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground"
             >
-              Full Stack Developer
+              Aspiring Developer
             </motion.h2>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              transition={{ delay: 1.5 }}
               className="text-muted-foreground mb-8 text-lg"
             >
               I build exceptional digital experiences with modern technologies.
@@ -66,8 +66,8 @@ const Hero = () => {
               <Button size="lg" className="gap-2">
                 Get in touch
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                View Projects
+              <Button size="lg" variant="outline" className="https://watext.me/bot">
+                WhatsApp Bot
               </Button>
             </motion.div>
 
