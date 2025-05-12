@@ -92,9 +92,9 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="#"
+                href="https://Instagram.com/_sks_bot_"
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="Instagram"
               >
                 <Twitter size={24} />
               </a>
@@ -121,7 +121,7 @@ const Hero = () => {
                 <img 
                   alt="Developer portrait"
                   className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                 src="https://images.unsplash.com/photo-1666892666066-abe5c4865e9c" />
+                 src="https://files.catbox.moe/72t64g.png" />
               </motion.div>
             </div>
           </motion.div>
