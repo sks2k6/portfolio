@@ -63,7 +63,7 @@ const About = () => {
               <img 
                 alt="Developer working"
                 className="rounded-2xl shadow-xl border border-white/10"
-               src="https://images.unsplash.com/photo-1491252027976-a03f31b9df00" />
+               src="https://cdn.ironman.my.id/q/NDdju.jpg" />
             </motion.div>
           </motion.div>
 
@@ -81,24 +81,12 @@ const About = () => {
               My Journey
             </motion.h3>
             <motion.p variants={itemVariants} className="text-muted-foreground">
-              I'm a passionate Full Stack Developer with over 5 years of
-              experience building web applications. My journey in tech started
-              when I built my first website at the age of 16, and I've been
-              hooked ever since.
+              I'm a beginner coder with a passion for building innovative solutions.
+              I built my first website at the age of 16, and I've been hooked ever since.
             </motion.p>
             <motion.p variants={itemVariants} className="text-muted-foreground">
-              I specialize in JavaScript technologies across the stack and have
-              professional experience working with React, Node.js, and modern
-              cloud infrastructure. I love creating intuitive, dynamic user
-              experiences and solving complex problems.
+              since 2020
             </motion.p>
-            <motion.p variants={itemVariants} className="text-muted-foreground">
-              When I'm not coding, you can find me hiking, reading about new
-              technologies, or contributing to open-source projects. I believe in
-              continuous learning and pushing the boundaries of what's possible
-              with code.
-            </motion.p>
-
             <motion.div
               variants={itemVariants}
               className="grid grid-cols-2 gap-4 mt-8"
@@ -106,25 +94,25 @@ const About = () => {
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Education</h4>
                 <p className="text-sm text-muted-foreground">
-                  B.S. Computer Science, Tech University
+                Commerce with Computer @ govt school 
                 </p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Experience</h4>
                 <p className="text-sm text-muted-foreground">
-                  5+ Years Professional Development
+                  5+ Years..
                 </p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Location</h4>
                 <p className="text-sm text-muted-foreground">
-                  San Francisco, CA
+                  Kerala,India
                 </p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Interests</h4>
                 <p className="text-sm text-muted-foreground">
-                  Open Source, AI, Web3
+                  web, Ai...
                 </p>
               </div>
             </motion.div>
