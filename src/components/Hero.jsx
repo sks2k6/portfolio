@@ -34,10 +34,10 @@ const Hero = () => {
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.8 }}
               className="text-4xl md:text-6xl font-bold mb-4"
             >
-              <span className="text-gradient">John Doe</span>
+              <span className="text-gradient">Syam</span>
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0 }}
@@ -45,7 +45,7 @@ const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground"
             >
-              Full Stack Developer
+              Aspiring Developer
             </motion.h2>
             <motion.p
               initial={{ opacity: 0 }}
@@ -63,11 +63,11 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
               className="flex flex-wrap gap-4"
             >
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className="outline">
                 Get in touch
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                View Projects
+              <Button size="lg" variant="gap-2" className="watext.me/bot">
+                WhatsApp Bot
               </Button>
             </motion.div>
 
@@ -87,14 +87,14 @@ const Hero = () => {
               <a
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="LinkedIn"
+                aria-label="WhatsApp"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="Instagram"
               >
                 <Twitter size={24} />
               </a>
