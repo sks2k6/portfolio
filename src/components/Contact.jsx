@@ -55,7 +55,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or just want to say hi? Feel free to reach
+            Have a project in mind or how can i help you? Feel free to reach
             out.
           </p>
         </motion.div>
@@ -74,30 +74,30 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold">Email</h4>
                 <a
-                  href="mailto:john.doe@example.com"
+                  href="mailto: skswhatsappbot@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  john.doe@example.com
+                  skswhatsappbot@gmail.com
                 </a>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
               <Phone className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">Phone</h4>
+                <h4 className="font-semibold">WhatsApp</h4>
                 <a
-                  href="tel:+1234567890"
+                  href="watext.me/bot"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +1 (234) 567-890
+                  +91 8921602850
                 </a>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
               <MapPin className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">Location</h4>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <h4 className="font-semibold">Instagram</h4>
+                <p className="https://instagram.com/_sks_bot_">_sks_bot_</p>
               </div>
             </div>
           </motion.div>
@@ -120,7 +120,7 @@ const Contact = () => {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="your name"
                 required
                 className="bg-background/50 border-white/20 focus:border-primary"
               />
@@ -135,7 +135,7 @@ const Contact = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="you@example.com"
+                placeholder="yourmail@mail.com"
                 required
                 className="bg-background/50 border-white/20 focus:border-primary"
               />
