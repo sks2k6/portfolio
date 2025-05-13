@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 
 const navItems = [
   { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "ㅤAbout", href: "#about" },
+  { name: "ㅤㅤSkills", href: "#skills" },
+  { name: "ㅤㅤㅤProjects", href: "#projects" },
+  { name: "ㅤㅤㅤㅤContact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -66,7 +66,7 @@ const Navbar = () => {
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.5 }}
+            transition={{ delay: 1.5 }}
           >
             <Button className="ml-4">Resume</Button>
           </motion.div>
