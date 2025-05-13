@@ -114,7 +114,7 @@ const Skills = () => {
               <h4 className="text-xl font-bold">Front-end Developer</h4>
               <p className="text-primary">Digital Innovations | Since 2024</p>
               <p className="mt-2 text-muted-foreground">
-                I focus on creating seamless user experiences, ensuring that websites are responsive, accessible, and optimized for performance. I'm proficient in using modern front-end tools and technologies.
+                .I focus on creating seamless user experiences, ensuring that websites are responsive, accessible, and optimized for performance. I'm proficient in using modern front-end tools and technologies.
               </p>
             </div>
           </div>
