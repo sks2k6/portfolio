@@ -102,22 +102,19 @@ const Skills = () => {
           <div className="space-y-8">
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold">Senior Developer</h4>
-              <p className="text-primary">Tech Solutions Inc. | 2020 - Present</p>
+              <h4 className="text-xl font-bold"Junior Developer</h4>
+              <p className="text-primary">Techanologia| 2020</p>
               <p className="mt-2 text-muted-foreground">
                 Led development of multiple web applications using React and
-                Node.js. Implemented CI/CD pipelines and mentored junior
-                developers.
+                Node.js. Throughout my journey, I've focused on developing a strong foundation in technologies.
               </p>
             </div>
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold">Full Stack Developer</h4>
-              <p className="text-primary">Digital Innovations | 2018 - 2020</p>
+              <h4 className="text-xl font-bold">Front-end Developer</h4>
+              <p className="text-primary">Digital Innovations | Since 2024</p>
               <p className="mt-2 text-muted-foreground">
-                Developed and maintained multiple client projects. Worked with
-                React, Vue, and Angular on the frontend, and Node.js/Express
-                on the backend.
+                I focus on creating seamless user experiences, ensuring that websites are responsive, accessible, and optimized for performance. I'm proficient in using modern front-end tools and technologies.
               </p>
             </div>
           </div>
