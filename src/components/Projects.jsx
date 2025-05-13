@@ -15,31 +15,13 @@ const projects = [
     repoLink: "#",
   },
   {
-    title: "Project Management Tool",
-    description:
-      "A collaborative project management tool with task tracking, team communication, and progress visualization.",
-    image: "Dashboard of a project management tool showing tasks and charts",
-    tags: ["Next.js", "Supabase", "TailwindCSS", "Framer Motion"],
-    liveLink: "#",
-    repoLink: "#",
-  },
-  {
-    title: "Personal Blog",
-    description:
-      "A dynamic personal blog built with a modern tech stack, featuring MDX support and a sleek design.",
-    image: "Homepage of a personal blog with article previews",
-    tags: ["Astro", "React", "TailwindCSS", "Contentful"],
-    liveLink: "#",
-    repoLink: "#",
-  },
-  {
     title: "AI Powered Chatbot",
     description:
       "An intelligent chatbot application using OpenAI's API for natural language understanding and response generation.",
     image: "Chat interface of an AI chatbot application",
     tags: ["Python", "Flask", "OpenAI API", "React"],
-    liveLink: "#",
-    repoLink: "#",
+    liveLink: "Check out this AI on Instagram! https://aistudio.instagram.com/ai/1538632754191502?utm_source=ai_agent",
+    repoLink: "https://wa.me/ais/1538632754191502?s=5",
   },
 ];
 
