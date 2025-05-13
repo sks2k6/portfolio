@@ -14,28 +14,10 @@ import {
 
 const skills = [
   {
-    category: "Frontend",
+    category: "web",
     icon: <Layout className="h-6 w-6" />,
     items: ["React", "Next.js", "TailwindCSS", "JavaScript", "TypeScript", "HTML/CSS"],
     color: "from-blue-500 to-cyan-400",
-  },
-  {
-    category: "Backend",
-    icon: <Server className="h-6 w-6" />,
-    items: ["Node.js", "Express", "Python", "Django", "GraphQL", "REST APIs"],
-    color: "from-green-500 to-emerald-400",
-  },
-  {
-    category: "Database",
-    icon: <Database className="h-6 w-6" />,
-    items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase"],
-    color: "from-yellow-500 to-amber-400",
-  },
-  {
-    category: "DevOps",
-    icon: <Cloud className="h-6 w-6" />,
-    items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform", "Vercel"],
-    color: "from-purple-500 to-violet-400",
   },
   {
     category: "Mobile",
