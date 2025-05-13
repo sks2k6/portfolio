@@ -72,8 +72,8 @@
 
 .cursor-glow {
   background: radial-gradient(
-    600px circle at var(--x) var(--y),
-    rgba(74, 0, 224, 0.15),
-    transparent 40%
+    800px circle at var(--x) var(--y),
+    rgba(90, 0, 224, 0.15),
+    transparent 20%
   );
 }
