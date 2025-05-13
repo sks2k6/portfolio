@@ -14,10 +14,28 @@ import {
 
 const skills = [
   {
-    category: "web",
+    category: "Frontend",
     icon: <Layout className="h-6 w-6" />,
     items: ["React", "Next.js", "TailwindCSS", "JavaScript", "TypeScript", "HTML/CSS"],
     color: "from-blue-500 to-cyan-400",
+  },
+  {
+    category: "Backend",
+    icon: <Server className="h-6 w-6" />,
+    items: ["Node.js", "Express", "Python", "Django", "GraphQL", "REST APIs"],
+    color: "from-green-500 to-emerald-400",
+  },
+  {
+    category: "Database",
+    icon: <Database className="h-6 w-6" />,
+    items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase"],
+    color: "from-yellow-500 to-amber-400",
+  },
+  {
+    category: "DevOps",
+    icon: <Cloud className="h-6 w-6" />,
+    items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform", "Vercel"],
+    color: "from-purple-500 to-violet-400",
   },
   {
     category: "Mobile",
@@ -102,19 +120,22 @@ const Skills = () => {
           <div className="space-y-8">
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold"Junior Developer</h4>
-              <p className="text-primary">Techanologia| 2020</p>
+              <h4 className="text-xl font-bold">Senior Developer</h4>
+              <p className="text-primary">Tech Solutions Inc. | 2020 - Present</p>
               <p className="mt-2 text-muted-foreground">
                 Led development of multiple web applications using React and
-                Node.js. Throughout my journey, I've focused on developing a strong foundation in technologies.
+                Node.js. Implemented CI/CD pipelines and mentored junior
+                developers.
               </p>
             </div>
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold">Front-end Developer</h4>
-              <p className="text-primary">Digital Innovations | Since 2024</p>
+              <h4 className="text-xl font-bold">Full Stack Developer</h4>
+              <p className="text-primary">Digital Innovations | 2018 - 2020</p>
               <p className="mt-2 text-muted-foreground">
-                .I focus on creating seamless user experiences, ensuring that websites are responsive, accessible, and optimized for performance. I'm proficient in using modern front-end tools and technologies.
+                Developed and maintained multiple client projects. Worked with
+                React, Vue, and Angular on the frontend, and Node.js/Express
+                on the backend.
               </p>
             </div>
           </div>
