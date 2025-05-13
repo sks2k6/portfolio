@@ -22,9 +22,9 @@ function App() {
 
   useEffect(() => {
     toast({
-      title: "Welcome to my portfolio!",
-      description: "Scroll down to explore my work and skills.",
-      duration: 5000,
+      title: "Welcome to my portfolio.!",
+      description: "Scroll down to explore",
+      duration: 3000,
     });
 
     const handleMouseMove = (e) => {
