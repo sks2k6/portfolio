@@ -86,7 +86,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold">WhatsApp</h4>
                 <a
-                  href="watext.me/bot"
+                  href="https://watext.me/bot"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   +91 8921602850
@@ -96,8 +96,9 @@ const Contact = () => {
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
               <MapPin className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">Instagram</h4>
-                <p className="https://instagram.com/_sks_bot_">_sks_bot_</p>
+                <h4 className="font-semibold">InstaGram</h4>
+                <a
+                  href="https://instagram.com/_sks_bot_"
               </div>
             </div>
           </motion.div>
@@ -135,7 +136,7 @@ const Contact = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="yourmail@mail.com"
+                placeholder="your@mail.com"
                 required
                 className="bg-background/50 border-white/20 focus:border-primary"
               />
