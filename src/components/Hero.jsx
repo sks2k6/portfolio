@@ -85,7 +85,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="#"
+                href="https://watext.me/bot"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
