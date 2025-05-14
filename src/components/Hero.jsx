@@ -34,23 +34,23 @@ const Hero = () => {
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
+              transition={{ delay: 0.3 }}
               className="text-4xl md:text-6xl font-bold mb-4"
             >
-              <span className="text-gradient">Syam..</span>
+              <span className="text-gradient">John Doe</span>
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.0 }}
+              transition={{ delay: 0.4 }}
               className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground"
             >
-              Aspiring Developer
+              Full Stack Developer
             </motion.h2>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5 }}
+              transition={{ delay: 0.5 }}
               className="text-muted-foreground mb-8 text-lg"
             >
               I build exceptional digital experiences with modern technologies.
@@ -66,8 +66,8 @@ const Hero = () => {
               <Button size="lg" className="gap-2">
                 Get in touch
               </Button>
-              <Button size="lg" variant="outline" className="https://watext.me/bot">
-                WhatsApp Bot
+              <Button size="lg" variant="outline" className="gap-2">
+                View Projects
               </Button>
             </motion.div>
 
@@ -85,16 +85,16 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://watext.me/bot"
+                href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://Instagram.com/_sks_bot_"
+                href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Instagram"
+                aria-label="Twitter"
               >
                 <Twitter size={24} />
               </a>
@@ -121,7 +121,7 @@ const Hero = () => {
                 <img 
                   alt="Developer portrait"
                   className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                 src="https://files.catbox.moe/72t64g.png" />
+                 src="https://images.unsplash.com/photo-1666892666066-abe5c4865e9c" />
               </motion.div>
             </div>
           </motion.div>
