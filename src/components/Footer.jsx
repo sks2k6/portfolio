@@ -36,21 +36,21 @@ const Footer = () => {
             className="flex items-center gap-6"
           >
             <a
-              href="#"
+              href="watext.me/bot"
               className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="GitHub"
+              aria-label="BOT"
             >
               <Github size={24} />
             </a>
             <a
-              href="#"
+              href="wa.me/918921602850"
               className="wa.me/918921602850"
-              aria-label="InstaGram"
+              aria-label="WhatsApp"
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="#"
+              href="https://instagram.com/_sks_bot_"
               className="https://instagram.com/_sks_bot_"
               aria-label="Instagram"
             >
