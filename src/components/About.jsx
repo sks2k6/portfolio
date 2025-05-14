@@ -56,7 +56,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-2xl filter blur-xl opacity-30"></div>
             <motion.div
-              animate={{ rotate: [0, 2, 0, -2, 0] }}
+              animate={{ rotate: [0, 4, 0, -2, 0] }}
               transition={{ duration: 6, repeat: Infinity }}
               className="relative"
             >
