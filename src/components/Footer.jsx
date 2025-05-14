@@ -22,10 +22,10 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <p className="text-muted-foreground">
-              &copy; {currentYear} Syam🌝. All rights reserved.
+              &copy; {currentYear} Syam. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
-              Built with React, Html,TailwindCSS, and Framer Motion.
+              Built with React, TailwindCSS, and Framer Motion.
             </p>
           </motion.div>
 
@@ -36,23 +36,23 @@ const Footer = () => {
             className="flex items-center gap-6"
           >
             <a
-              href="watext.me/bot"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="BOT"
+              aria-label="GitHub"
             >
               <Github size={24} />
             </a>
             <a
-              href="wa.me/918921602850"
-              className="wa.me/918921602850"
-              aria-label="WhatsApp"
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="https://instagram.com/_sks_bot_"
-              className="https://instagram.com/_sks_bot_"
-              aria-label="Instagram"
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Twitter"
             >
               <Twitter size={24} />
             </a>
