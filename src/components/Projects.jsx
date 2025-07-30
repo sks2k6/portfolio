@@ -17,11 +17,11 @@ const projects = [
   {
     title: "AI Powered Chatbot",
     description:
-      "An intelligent chatbot application using OpenAI's API for natural language understanding and response generation.",
+      "A Whatsapp chatbot used to download medias and helps in WhatsApp group with many features.",
     image: "Chat interface of an AI chatbot application",
-    tags: ["Python", "Flask", "OpenAI API", "React"],
-    liveLink: "Check out this AI on Instagram! https://aistudio.instagram.com/ai/1538632754191502?utm_source=ai_agent",
-    repoLink: "https://wa.me/ais/1538632754191502?s=5",
+    tags: ["Python", "Javascript ", "React
+    liveLink: "Check out this AI on Instagram! https://watext.me/BOT",
+    repoLink: "https://watext.me/BOT",
   },
 ];
 
