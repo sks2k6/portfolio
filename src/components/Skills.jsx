@@ -16,37 +16,25 @@ const skills = [
   {
     category: "Frontend",
     icon: <Layout className="h-6 w-6" />,
-    items: ["React", "Next.js", "TailwindCSS", "JavaScript", "TypeScript", "HTML/CSS"],
+    items: ["React", "Next.js", "TailwindCSS", "JavaScript", "HTML/CSS"],
     color: "from-blue-500 to-cyan-400",
-  },
-  {
-    category: "Backend",
-    icon: <Server className="h-6 w-6" />,
-    items: ["Node.js", "Express", "Python", "Django", "GraphQL", "REST APIs"],
-    color: "from-green-500 to-emerald-400",
   },
   {
     category: "Database",
     icon: <Database className="h-6 w-6" />,
-    items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase"],
+    items: ["MongoDB", "PostgreSQL", "MySQL"],
     color: "from-yellow-500 to-amber-400",
   },
   {
-    category: "DevOps",
-    icon: <Cloud className="h-6 w-6" />,
-    items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform", "Vercel"],
-    color: "from-purple-500 to-violet-400",
-  },
-  {
-    category: "Mobile",
+    category: "Whatsapp Bot",
     icon: <Smartphone className="h-6 w-6" />,
-    items: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"],
+    items: ["JavaScript", "Java", "Expo", "Json"],
     color: "from-red-500 to-rose-400",
   },
   {
-    category: "Tools",
+    category: "Web Design",
     icon: <Terminal className="h-6 w-6" />,
-    items: ["Git", "VS Code", "Figma", "Postman", "Jest", "Webpack"],
+    items: ["Github", "VS Code", "Gitlab"],
     color: "from-indigo-500 to-blue-400",
   },
 ];
@@ -115,27 +103,24 @@ const Skills = () => {
           className="mt-16 glass-card rounded-xl p-8 border border-white/10"
         >
           <h3 className="text-2xl font-bold mb-6 text-center">
-            Professional Experience
+             Experience
           </h3>
           <div className="space-y-8">
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold">Senior Developer</h4>
-              <p className="text-primary">Tech Solutions Inc. | 2020 - Present</p>
+              <h4 className="text-xl font-bold">
+                Entry-level Dev</h4>
+              <p className="text-primary">Bot | 2021-25</p>
               <p className="mt-2 text-muted-foreground">
-                Led development of multiple web applications using React and
-                Node.js. Implemented CI/CD pipelines and mentored junior
-                developers.
+                Whatsapp bot using Javascript, json... can be connected in any number using render/koyeb etc ..
               </p>
             </div>
             <div className="relative pl-8 border-l border-primary/30">
               <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
-              <h4 className="text-xl font-bold">Full Stack Developer</h4>
-              <p className="text-primary">Digital Innovations | 2018 - 2020</p>
+              <h4 className="text-xl font-bold">Web Developer</h4>
+              <p className="text-primary">Junior web-dev| 2023- 2025</p>
               <p className="mt-2 text-muted-foreground">
-                Developed and maintained multiple client projects. Worked with
-                React, Vue, and Angular on the frontend, and Node.js/Express
-                on the backend.
+                Developed some small project using html,css and updating new using Js..
               </p>
             </div>
           </div>
