@@ -6,20 +6,26 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { Send, Mail, Phone, MapPin } from "lucide-react";
 
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const Contact = () => {
   const { toast } = useToast();
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -54,8 +60,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or how can I help you? Feel free to reach
-            out.
+            Have a project in mind or how can I help you? Feel free to reach out.
           </p>
         </motion.div>
 
@@ -86,6 +91,8 @@ const Contact = () => {
                 <h4 className="font-semibold">WhatsApp</h4>
                 <a
                   href="https://watext.me/bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   +91 8921602850
@@ -93,17 +100,19 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
-  <MapPin className="h-8 w-8 text-primary" />
-  <div>
-    <h4 className="font-semibold">Instagram</h4>
-    <a
-      href="https://instagram.com/sksb0t"
-      className="text-muted-foreground hover:text-primary transition-colors"
-    >
-      @sksb0t
-    </a>
-  </div>
-</div>
+              <MapPin className="h-8 w-8 text-primary" />
+              <div>
+                <h4 className="font-semibold">Instagram</h4>
+                <a
+                  href="https://instagram.com/sksb0t"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  @sksb0t
+                </a>
+              </div>
+            </div>
           </motion.div>
 
           <motion.form
