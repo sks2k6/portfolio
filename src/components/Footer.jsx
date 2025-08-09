@@ -36,7 +36,7 @@ const Footer = () => {
             className="flex items-center gap-6"
           >
             <a
-              href="github.com/syamkarthiks"
+              href="https://github.com/syamkarthiks"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
@@ -50,7 +50,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="syam8.vercel.app"
+              href="https://watext.me/BOT"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Twitter"
             >
