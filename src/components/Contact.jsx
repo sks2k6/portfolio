@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -55,7 +54,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or how can i help you? Feel free to reach
+            Have a project in mind or how can I help you? Feel free to reach
             out.
           </p>
         </motion.div>
@@ -74,7 +73,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold">Email</h4>
                 <a
-                  href="mailto: skswhatsappbot@gmail.com"
+                  href="mailto:skswhatsappbot@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   skswhatsappbot@gmail.com
@@ -96,10 +95,13 @@ const Contact = () => {
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
               <MapPin className="h-8 w-8 text-primary" />
               <div>
-                <h4 className="font-semibold">InstaGram</h4>
+                <h4 className="font-semibold">Instagram</h4>
                 <a
                   href="https://instagram.com/sksb0t"
-                  >
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  @sksb0t
+                </a>
               </div>
             </div>
           </motion.div>
@@ -122,7 +124,7 @@ const Contact = () => {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="your name"
+                placeholder="Your name"
                 required
                 className="bg-background/50 border-white/20 focus:border-primary"
               />
@@ -143,10 +145,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label
-                htmlFor="message"
-                className="block text-sm font-medium mb-1"
-              >
+              <label htmlFor="message" className="block text-sm font-medium mb-1">
                 Message
               </label>
               <Textarea
