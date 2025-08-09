@@ -99,6 +99,7 @@ const Contact = () => {
                 <h4 className="font-semibold">InstaGram</h4>
                 <a
                   href="https://instagram.com/sksb0t"
+                  </a>
               </div>
             </div>
           </motion.div>
