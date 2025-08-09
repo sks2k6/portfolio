@@ -36,21 +36,21 @@ const Footer = () => {
             className="flex items-center gap-6"
           >
             <a
-              href="#"
+              href="github.com/syamkarthiks"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
               <Github size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/syamkarthiks"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="#"
+              href="syam8.vercel.app"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Twitter"
             >
