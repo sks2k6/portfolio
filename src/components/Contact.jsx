@@ -93,17 +93,17 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
-              <MapPin className="h-8 w-8 text-primary" />
-              <div>
-                <h4 className="font-semibold">Instagram</h4>
-                <a
-                  href="https://instagram.com/sksb0t"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  @sksb0t
-                </a>
-              </div>
-            </div>
+  <MapPin className="h-8 w-8 text-primary" />
+  <div>
+    <h4 className="font-semibold">Instagram</h4>
+    <a
+      href="https://instagram.com/sksb0t"
+      className="text-muted-foreground hover:text-primary transition-colors"
+    >
+      @sksb0t
+    </a>
+  </div>
+</div>
           </motion.div>
 
           <motion.form
