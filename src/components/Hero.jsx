@@ -110,7 +110,7 @@ const Hero = () => {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-full filter blur-3xl opacity-30" />
               <motion.div
-                animate={{ y: [0, -20, 0] }}
+                animate={{ y: [0, -40, 0] }}
                 transition={{
                   duration: 4,
                   repeat: Infinity,
