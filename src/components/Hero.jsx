@@ -1,7 +1,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -37,7 +37,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-6xl font-bold mb-4"
             >
-              <span className="text-gradient">John Doe</span>
+              <span className="text-gradient">Syam Karthik S</span>
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0 }}
