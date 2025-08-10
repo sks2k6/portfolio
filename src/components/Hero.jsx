@@ -45,7 +45,7 @@ const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground"
             >
-              Full Stack Developer
+              Aspiring Developer
             </motion.h2>
             <motion.p
               initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ const Hero = () => {
               transition={{ delay: 0.5 }}
               className="text-muted-foreground mb-8 text-lg"
             >
-              I build exceptional digital experiences with modern technologies.
+              I build exceptional digital experiences with modern technologies and websites.
               Specializing in creating elegant, functional, and user-friendly
               applications.
             </motion.p>
@@ -78,21 +78,21 @@ const Hero = () => {
               className="flex items-center gap-4 mt-8"
             >
               <a
-                href="#"
+                href="https://github.com/syamkarthiks"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
                 <Github size={24} />
               </a>
               <a
-                href="#"
+                href="https://linkedin.in/syamkarthiks"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a
-                href="#"
+                href="https://watext.me/BOT"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Twitter"
               >
@@ -112,7 +112,7 @@ const Hero = () => {
               <motion.div
                 animate={{ y: [0, -40, 0] }}
                 transition={{
-                  duration: 4,
+                  duration: 3,
                   repeat: Infinity,
                   repeatType: "reverse",
                 }}
@@ -121,7 +121,7 @@ const Hero = () => {
                 <img 
                   alt="Developer portrait"
                   className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                 src="https://images.unsplash.com/photo-1666892666066-abe5c4865e9c" />
+                 src="https://i.ibb.co/rKXpZ2fH/temp.jpg" />
               </motion.div>
             </div>
           </motion.div>
