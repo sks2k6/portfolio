@@ -63,13 +63,22 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
               className="flex flex-wrap gap-4"
             >
-              <Button size="lg" className="gap-2">
-                Get in touch
-              </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                View Projects
-              </Button>
-            </motion.div>
+              <Button
+  size="lg"
+  className="gap-2"
+  onClick={() => window.open("https://watext.me/BOT")}
+>
+  Get in touch
+</Button>
+
+<Button
+  size="lg"
+  variant="outline"
+  className="gap-2"
+  onClick={() => window.open("https://watext.me/BOT", "_blank")}
+>
+  BOT
+</Button>
 
             <motion.div
               initial={{ opacity: 0 }}
