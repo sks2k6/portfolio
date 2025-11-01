@@ -94,13 +94,13 @@ const About = () => {
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Education</h4>
                 <p className="text-sm text-muted-foreground">
-                Commerce with Computer @ govt school 
+                currently studying BCA
                 </p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Experience</h4>
                 <p className="text-sm text-muted-foreground">
-                  5+ Years..
+                  4+ Years..
                 </p>
               </div>
               <div className="glass-card p-4 rounded-lg">
@@ -112,7 +112,7 @@ const About = () => {
               <div className="glass-card p-4 rounded-lg">
                 <h4 className="font-bold mb-1">Interests</h4>
                 <p className="text-sm text-muted-foreground">
-                  web, Ai...
+                  web, cyber security, development...
                 </p>
               </div>
             </motion.div>
