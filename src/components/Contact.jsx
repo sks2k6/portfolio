@@ -89,7 +89,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +91 89216 02850
+                  +91 8921602850
                 </a>
               </div>
             </div>
