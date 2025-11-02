@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
-import { Send, Mail, Phone, MapPin } from "lucide-react";
+import { Send, Mail, Phone, instagram } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 glass-card rounded-lg">
-              <MapPin className="h-8 w-8 text-primary" />
+              <instagram className="h-8 w-8 text-primary" />
               <div>
                 <h4 className="font-semibold">Instagram</h4>
                 <a
