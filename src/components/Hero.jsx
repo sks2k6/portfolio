@@ -1,7 +1,6 @@
-
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -10,13 +9,16 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden"
     >
+      {/* Background Blobs */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full filter blur-3xl opacity-50" />
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-500/20 rounded-full filter blur-3xl opacity-50" />
       </div>
 
+      {/* Main Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          {/* Left Text Section */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -31,6 +33,7 @@ const Hero = () => {
             >
               Hello, I'm
             </motion.p>
+
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -39,6 +42,7 @@ const Hero = () => {
             >
               <span className="text-gradient">Syam Karthik</span>
             </motion.h1>
+
             <motion.h2
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -47,16 +51,19 @@ const Hero = () => {
             >
               Aspiring Developer
             </motion.h2>
+
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
               className="text-muted-foreground mb-8 text-lg"
             >
-              I build exceptional digital experiences with modern technologies and websites.
-              Specializing in creating elegant, functional, and user-friendly
-              applications.
+              I build exceptional digital experiences with modern technologies
+              and websites. Specializing in creating elegant, functional, and
+              user-friendly applications.
             </motion.p>
+
+            {/* Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -64,22 +71,24 @@ const Hero = () => {
               className="flex flex-wrap gap-4"
             >
               <Button
-  size="lg"
-  className="gap-2"
-  onClick={() => window.open("https://watext.me/BOT")}
->
-  Get in touch
-</Button>
+                size="lg"
+                className="gap-2"
+                onClick={() => window.open("https://watext.me/BOT")}
+              >
+                Get in touch
+              </Button>
 
-<Button
-  size="lg"
-  variant="outline"
-  className="gap-2"
-  onClick={() => window.open("https://watext.me/BOT", "_blank")}
->
-  BOT
-</Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="gap-2"
+                onClick={() => window.open("https://watext.me/BOT", "_blank")}
+              >
+                BOT
+              </Button>
+            </motion.div>
 
+            {/* Social Links */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -94,7 +103,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.in/syamkarthiks"
+                href="https://linkedin.com/in/syamkarthiks"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
@@ -110,6 +119,7 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
+          {/* Right Image Section */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -127,33 +137,36 @@ const Hero = () => {
                 }}
                 className="relative z-10"
               >
-                <img 
+                <img
                   alt="Developer portrait"
                   className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                 src="https://i.ibb.co/rKXpZ2fH/temp.jpg" />
+                  src="https://i.ibb.co/rKXpZ2fH/temp.jpg"
+                />
               </motion.div>
             </div>
-          <motion.div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1 }}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
-        >
-          <span className="text-sm text-muted-foreground mb-2">Scroll Down</span>
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              repeatType: "loop",
-            }}
-          >
-            <ArrowDown className="h-6 w-6 text-primary" />
           </motion.div>
+        </div>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1 }}
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
+      >
+        <span className="text-sm text-muted-foreground mb-2">Scroll Down</span>
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{
+            duration: 1.5,
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+        >
+          <ArrowDown className="h-6 w-6 text-primary" />
         </motion.div>
+      </motion.div>
     </section>
   );
 };
