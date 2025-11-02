@@ -133,8 +133,8 @@ const Hero = () => {
                  src="https://i.ibb.co/rKXpZ2fH/temp.jpg" />
               </motion.div>
             </div>
-          </motion.div>
-        </div>
+          <motion.div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0 }}
