@@ -20,8 +20,8 @@ const projects = [
       "A Whatsapp chatbot used to download medias and helps in WhatsApp group with many features.",
     image: "Chat interface of an AI chatbot application",
     tags: ["Python", "Javascript ", "React"],
-    liveLink: "Check out this AI on Instagram! https://watext.me/BOT",
-    repoLink: "https://watext.me/BOT",
+    liveLink: "Check out this AI on Instagram! https://watext.me/777",
+    repoLink: "https://watext.me/bot",
   },
 ];
 
