@@ -84,12 +84,12 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold">WhatsApp</h4>
                 <a
-                  href="https://watext.me/bot"
+                  href="https://watext.me/777"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +91 8921602850
+                  +91 777 987 9909
                 </a>
               </div>
             </div>
