@@ -50,7 +50,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://watext.me/BOT"
+              href="https://watext.me/777"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Twitter"
             >
