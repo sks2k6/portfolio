@@ -73,7 +73,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 className="gap-2"
-                onClick={() => window.open("https://watext.me/BOT")}
+                onClick={() => window.open("https://watext.me/bot")}
               >
                 Get in touch
               </Button>
@@ -82,7 +82,7 @@ const Hero = () => {
                 size="lg"
                 variant="outline"
                 className="gap-2"
-                onClick={() => window.open("https://watext.me/BOT", "_blank")}
+                onClick={() => window.open("https://watext.me/777", "_blank")}
               >
                 BOT
               </Button>
