@@ -10,5 +10,14 @@
 	<body><a href="https://github.com/syamkarthiks">GitHub Profile</a>
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
+		<script>
+  const ref = document.referrer || "Direct";
+  const page = window.location.pathname;
+  const time = new Date().toISOString();
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  fetch(`/api/log?page=${encodeURIComponent(page)}&ref=${encodeURIComponent(ref)}&time=${encodeURIComponent(time)}&tz=${encodeURIComponent(tz)}`);
+</script>
+
 	</body>
 </html>
