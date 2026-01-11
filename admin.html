@@ -102,4 +102,17 @@ function render(data) {
 }
 
 // Search filter
-document.getElementById("search").addE
+document.getElementById("search").addEventListener("input", e => {
+  const value = e.target.value.toLowerCase();
+  const filtered = allData.filter(v =>
+    JSON.stringify(v).toLowerCase().includes(value)
+  );
+  render(filtered);
+});
+
+// Load data when page opens
+loadData();
+</script>
+
+</body>
+</html>
