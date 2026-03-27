@@ -89,7 +89,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +91 777 987 9909
+                  +91
                 </a>
               </div>
             </div>
