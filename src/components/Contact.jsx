@@ -98,7 +98,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold">Instagram</h4>
                 <a
-                  href="https://instagram.com/sksb0t"
+                  href="https://instagram.com/5y4m0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
